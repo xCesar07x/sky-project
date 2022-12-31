@@ -1,0 +1,69 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App{
+  background: rgba(193, 191, 187, 0.938);
+  padding: 1rem;
+  border-radius: 1.5rem;
+  color: mediumpurple;
+ 
+}
+
+.App > h1{
+  color: mediumpurple;
+}
+
+
+.sky-conteiner{
+  /* border: 4px dashed yellow; */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  column-gap: 1rem;
+}
+
+
+
+.sky-01 > p{
+  font-size: x-large;
+  display: flex;
+  column-gap: 0.5rem;
+  color: black;
+}
+
+.sky-01 > p > svg{
+  width: 15px;
+  fill: red;
+  
+}
+
+.sky-02{
+  text-align: start;
+}
+
+.sky-02 > h2{
+  text-align: center;
+}
+
+.sky-02 > h3{
+  display: flex;
+  column-gap: 0.5rem;
+}
+
+.sky-button{
+  padding: 1rem;
+  color: mediumpurple;
+}
+
+.sky-02 > h3 > svg{
+  fill: darkviolet;
+}
+
+.sky-02 > h3 >p{
+  display: contents;
+  color: black;
+}

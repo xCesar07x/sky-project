@@ -1,10 +1,12 @@
 import { useState, useEffect } from 'react'
 // import reactLogo from ''
+import imgsky from './assets/img-sky.jpg'
 import axios from 'axios'
 import './App.css'
 
 
 function App() {
+  
   const [sky, setSky] = useState({});
   const [isCelcius, setIsCelcius] = useState(true);
   
@@ -44,8 +46,8 @@ function App() {
     setIsCelcius(!isCelcius);
   }
 
-  document.body.style = {}
   
+  document.body.style = {background: "red"}
 
   // console.log(celcius);
   return (
